@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+#root {
+ width: 100vw;
+ height: 100vh;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/nubemovi.gif);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  
+}
+.card-clima{
+ 
+  width: 90vmin;
+  height: 90vmin;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 8px gray;
+  border-radius: 10px;
+ background: rgba(39, 228, 241, 0.26);
+}
+h3, h4, h5{
+  color: blueviolet;
+  
+}
+.title{
+  text-align: center;
+  font-size: 4vmin;
+  
+}
+.sub-title,.scattered{
+  text-align: center;
+  font-size: 3vmin;
+}
+.item{
+  font-size: 3vmin;
+}
+
+.image{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.description{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.contatiner-information{
+  display: flex;
+  height: 60%;
+  
+}
+.wind-speed{
+  display: flex;
+  gap: 5px;
+}
+p{
+  font-size: 3vmin;
+}
+
+.temperature{
+  font-size: 5vmin;
+}
+.button{
+  width: 45%;
+  height: 10%;
+  margin: 0 auto;
+  font-size: 3vmin;
+  background: rebeccapurple;
+  border-radius: 10px;
+  display: flex;
+  gap: 5vmin;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px grey;
+  border: none;
+  transition: all 0.5s linear;
+}
+.button:hover{
+  background: rgb(67, 68, 68);
+  box-shadow: 2px 2px 8px rgb(236, 72, 72);
+  width: 60%;
+  height: 10%;
+  font-size: 4vmin;
+}
+
+.imag-icon{
+  width: 12%;
+}
+
+.icon-button{
+  width: 15%;
+}
