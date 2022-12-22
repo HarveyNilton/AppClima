@@ -62,7 +62,7 @@ function App() {
           </section>
         </div>
         <h2 className="temperature">{`${change ? degree : farenheit} ${change ? 'ºC' : 'ºF'}`}</h2>
-        <button className='button' onClick={changeTemp}> <img className='icon-button' src={change ? "./public/centigradeicon.svg":"./public/farenheiticon.svg"} alt="" />{change ? 'To degress ºF':'To degress ºC'}</button>
+        <button className='button' onClick={changeTemp}> <img className='icon-button' src={change ? "./public/centigradeicon.svg" :"./public/farenheiticon.svg"} alt="" />{change ? 'To degress ºF':'To degress ºC'}</button>
       </div>
       
     </div>
