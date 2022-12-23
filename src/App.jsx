@@ -10,9 +10,14 @@ function App() {
 
   const [load, setLoad] = useState(false)
   
+  setTimeout(() => {
+    setLoad(false)
+
+    }, 5000);
 
   useEffect(()=>{
-    setLoad(true)
+    
+
     function success(pos) {
       const crd = pos.coords;
       axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${crd.latitude}&lon=${crd.longitude}&appid=183d97d3803189cf9338bbc54a4dd296`)
@@ -25,7 +30,7 @@ function App() {
       navigator.geolocation.getCurrentPosition(success, error);
 
      
-       setLoad(false)
+       setLoad(true)
   },[])
 
  
@@ -41,7 +46,6 @@ function App() {
   
   return (
     <div className="App">
-
       {load && <SplashScreeam/>}
       <div className='card-clima'>
         <h3 className="title">Wheather App</h3>

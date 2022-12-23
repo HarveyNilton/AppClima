@@ -1,7 +1,6 @@
 
 .load{
- 
-    background: rgb(199, 43, 43);
+    background: white;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -11,51 +10,14 @@
     left: 0;
     z-index: 100;
   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.loads{
+.imag{
+   margin: 0 auto;
+   width: 100px;
    
-}
-
-
-.hide{
-    display: none;
-}
-
-.logo-svg{
-    animation: animationLogo 2s infinite;
-   
-}
-
-.svg-logo{
-
-    border: none;
-    width: 100px;
-    position: relative;
-    animation: load 1.5s infinite;
-    /*animation: load 1.5s infinite;*/
-}
-/*
-.loader .svg-logo:hover{
-    animation: load 1.5s infinite;
-}*/
-
-@keyframes load{
-    0%{
-        top: 0;
-        fill: blue;
-      
-
-     /*transform: rotate(200deg);*/
-    }
-    50%{
-        top: -30px;
-        fill: aqua;
-        
-    }
-    100%{
-        top: 0;
-        fill: rgb(9, 255, 0);
-    }
 }
 

@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/nubemovi.gif);
+  background-image: url(/lluvia.gif);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   
@@ -32,10 +32,10 @@
   justify-content: space-between;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
- background: rgba(39, 228, 241, 0.26);
+ background: rgba(39, 241, 174, 0.329);
 }
 h3, h4, h5{
-  color: blueviolet;
+  color: rgb(255, 255, 255);
   
 }
 .title{
@@ -86,7 +86,7 @@ p{
   height: 10%;
   margin: 0 auto;
   font-size: 3vmin;
-  background: rebeccapurple;
+  background: rgba(102, 51, 153, 0.329);
   border-radius: 10px;
   display: flex;
   gap: 5vmin;
@@ -100,7 +100,7 @@ p{
   transition: all 0.5s linear;
 }
 .button:hover{
-  background: rgb(67, 68, 68);
+  background: rgba(248, 11, 248, 0.192);
   box-shadow: 2px 2px 8px rgb(236, 72, 72);
   width: 60%;
   height: 10%;
