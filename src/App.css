@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../public/nubemovi.gif);
+  background-image: url(/nubemovi.gif);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   

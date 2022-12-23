@@ -51,18 +51,18 @@ function App() {
           <section className="description">
             <h4 className="scattered">"Scattered clouds"</h4>
             <figure className='wind-speed'>
-              <img className='imag-icon' src="./public/windspeed.svg" alt="" />
+              <img className='imag-icon' src="/windspeed.svg" alt="" />
               <h4 className='item'>Wind speed:</h4><p>{clima.wind?.speed} m/s</p></figure>
             <figure className='wind-speed'>
-              <img className='imag-icon' src="./public/cloud.svg" alt="" />
+              <img className='imag-icon' src="/cloud.svg" alt="" />
             <h4 className='item'>Clouds:</h4><p>{clima.clouds?.all} %</p></figure>
             <figure className='wind-speed'>
-              <img className='imag-icon' src="./public/presion.svg" alt="" />
+              <img className='imag-icon' src="/presion.svg" alt="" />
               <h4 className='item'>Pressure: </h4><p>{clima.main?.pressure} mbar</p></figure>
           </section>
         </div>
         <h2 className="temperature">{`${change ? degree : farenheit} ${change ? 'ºC' : 'ºF'}`}</h2>
-        <button className='button' onClick={changeTemp}> <img className='icon-button' src={change ? "./public/centigradeicon.svg" :"./public/farenheiticon.svg"} alt="" />{change ? 'To degress ºF':'To degress ºC'}</button>
+        <button className='button' onClick={changeTemp}> <img className='icon-button' src={change ? "/centigradeicon.svg" :"/farenheiticon.svg"} alt="" />{change ? 'To degress ºF':'To degress ºC'}</button>
       </div>
       
     </div>
