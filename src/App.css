@@ -19,7 +19,7 @@
   align-items: center;
   background-image: url(/lluvia.gif);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: 100vmax 100vmax;
   
 }
 .card-clima{
