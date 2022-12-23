@@ -32,7 +32,7 @@
   justify-content: space-between;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
- background: rgba(39, 241, 174, 0.329);
+ background: rgba(39, 241, 231, 0.384);
 }
 h3, h4, h5{
   color: rgb(255, 255, 255);
@@ -101,7 +101,7 @@ p{
 }
 .button:hover{
   background: rgba(248, 11, 248, 0.192);
-  box-shadow: 2px 2px 8px rgb(236, 72, 72);
+  box-shadow: 2px 2px 8px rgb(133, 130, 130);
   width: 60%;
   height: 10%;
   font-size: 4vmin;
