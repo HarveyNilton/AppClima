@@ -19,7 +19,7 @@
   align-items: center;
   background-image: url(/Nuages.gif);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: 100vmax 100vmax;
   
 }
 .card-clima{
@@ -32,7 +32,7 @@
   justify-content: space-between;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
- background: rgba(3, 5, 97, 0.226);
+ background: rgba(3, 5, 97, 0.726);
 }
 h3, h4, h5{
   color: rgb(255, 255, 255);
