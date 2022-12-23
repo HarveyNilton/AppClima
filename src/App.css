@@ -17,9 +17,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/lluvia.gif);
+  background-image: url(/Nuages.gif);
   background-repeat: no-repeat;
-  background-size: 100vmax 100vmax;
+  background-size: 100vw 100vh;
   
 }
 .card-clima{
@@ -32,7 +32,7 @@
   justify-content: space-between;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
- background: rgba(39, 76, 241, 0.13);
+ background: rgba(3, 5, 97, 0.226);
 }
 h3, h4, h5{
   color: rgb(255, 255, 255);
