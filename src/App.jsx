@@ -43,6 +43,16 @@ function App() {
   const changeTemp = ()=>{
     setChange(!change)
   }
+
+  const climasIcon = ['/01d.png','/01n.png','/02d.png','/02n.png','/03d.png','/03n.png','/04d.png','/04n.png','/09d.png','/09n.png','/10d.png','/10n.png','/11d.png','/11n.png','/13d.png','/13n.png','/50d.png','/50n.png']
+
+  function image() {
+    const img =  climasIcon.filter(icon => icon===`/${clima.weather?.[0].icon}.png`)
+      return <img className="image"  src={img} alt="" />
+
+   /* return (<img className="image" src={`http://openweathermap.org/img/wn/${clima.weather?.[0].icon}@2x.png`} alt="" />
+    )*/
+  }
   
   return (
     <div className="App">
@@ -51,7 +61,7 @@ function App() {
         <h3 className="title">Wheather App</h3>
         <h4 className="sub-title">{`${clima.sys?.country} - ${clima.name}`}</h4>
         <div className="contatiner-information">
-          <img className="image" src={`http://openweathermap.org/img/wn/${clima.weather?.[0].icon}@2x.png`} alt="" />
+         {image()}
           <section className="description">
             <h4 className="scattered">"Scattered clouds"</h4>
             <figure className='wind-speed'>
